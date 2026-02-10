@@ -9,10 +9,12 @@
 
 import '../cards.css';
 import './Person7.css';
+import profile from "./Images/MyGodlyVersion.png"
 
 function Person7() {
   return (
     <div className="card horizontal person7">
+      <img className="image" src={profile}></img>
       <p>Person 7</p>
     </div>
   );
