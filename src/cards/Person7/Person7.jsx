@@ -15,7 +15,16 @@ function Person7() {
   return (
     <div className="card horizontal person7">
       <img className="image" src={profile}></img>
-      <p>Person 7</p>
+      <div>
+        <h1>{"Andres :)"}</h1>
+        <ul style={{ listStyleType: 'disc', paddingLeft: '1.5rem' }}>
+          <li>I like Roblox</li>
+          <li>I like Code</li>
+          <li>I like Anime</li>
+        </ul>
+
+      </div>
+      
     </div>
   );
 }
