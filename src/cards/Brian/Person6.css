@@ -17,6 +17,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   border: 2px dashed #999;
   border-radius: 8px;
+  background-image: url("https://images.fineartamerica.com/images-medium-large-5/tokyo-tower-after-sunset-image-provided-by-duane-walker.jpg");
+  background-size: cover;
+}
+
+.clickbtn{
+  font-weight: bold;
+  
 }
