@@ -17,11 +17,3 @@
     grid-row: span 1;
     grid-column: span 1;
 }
-
-.template {
-    display: flex;
-    place-items: center;
-    justify-content: center;
-    border: 2px solid #999;
-    border-radius: 8px;
-}

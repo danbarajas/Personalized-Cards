@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 9 STYLES — Vertical Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person9 class.
+ *
+ *  Example:
+ *    .person9 {
+ *      background-color: #f39c12;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}

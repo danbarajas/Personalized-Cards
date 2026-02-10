@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 8 STYLES — Vertical Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person8 class.
+ *
+ *  Example:
+ *    .person8 {
+ *      background-color: #3498db;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person8 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}

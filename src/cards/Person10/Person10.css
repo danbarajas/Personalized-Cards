@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 10 STYLES — Square Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person10 class.
+ *
+ *  Example:
+ *    .person10 {
+ *      background-color: #8e44ad;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person10 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 6 STYLES — Square Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person6 class.
+ *
+ *  Example:
+ *    .person6 {
+ *      background-color: #e74c3c;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}

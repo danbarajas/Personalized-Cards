@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 7 STYLES — Horizontal Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person7 class.
+ *
+ *  Example:
+ *    .person7 {
+ *      background-color: #2ecc71;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person7 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}

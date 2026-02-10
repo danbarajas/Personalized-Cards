@@ -1,0 +1,22 @@
+/*
+ * ===========================================
+ *  PERSON 2 STYLES — Vertical Card
+ * ===========================================
+ *  Add your custom styles here!
+ *  Your card uses the .person2 class.
+ *
+ *  Example:
+ *    .person2 {
+ *      background-color: #4682b4;
+ *      color: white;
+ *      font-size: 1.5rem;
+ *    }
+ */
+
+.person2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #999;
+  border-radius: 8px;
+}
