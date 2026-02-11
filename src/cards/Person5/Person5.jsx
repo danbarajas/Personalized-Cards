@@ -7,13 +7,29 @@
  *  - Edit Person5.css to change your card's styles
  */
 
+import { useState } from 'react';
 import '../cards.css';
 import './Person5.css';
 
+
 function Person5() {
+  const colors = ["white", "red", "orange", "yellow", "green", "blue", "purple", "pink"]
+  const [color, setColor] = useState("white");
+
+  
+  function changeColor() {
+    if (color <= 7) {
+      setColor(color + 1);
+    }
+    else {
+      setColor(0);
+    }
+  }
+
+
   return (
-    <div className="card square person5">
-      <p>Person 5</p>
+    <div className="card square person5" onClick={changeColor} >
+      <h1 className="person5-text" style={{color: colors[color]}} >Josephine</h1>
     </div>
   );
 }

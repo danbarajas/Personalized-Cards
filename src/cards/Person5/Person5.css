@@ -13,10 +13,45 @@
  *    }
  */
 
+@keyframes person5 {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.25);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@font-face {
+  font-family: 'Monocraft';
+  src: local('Monocraft'), url(./Monocraft.otf) format('otf');
+}
+
+.person5-text {
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  mix-blend-mode: exclusion;
+}
+
 .person5 {
+  font-family: "Monocraft";
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px dashed #999;
+  background-color: aliceblue;
+  border: 10px double #999;
   border-radius: 8px;
+  text-decoration: dotted;
+  user-select: none;
+}
+
+.person5:hover {
+  /* background-color: aliceblue; */
+  background: conic-gradient(red, orange, yellow, green, blue, purple, red);
+  /* mix-blend-mode: overlay; */
+  animation: person5 2s ease-in-out infinite;
 }
