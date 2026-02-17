@@ -26,13 +26,20 @@
 */
 
   .card.person2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #999;
+    border-radius: 8px;
+    padding: 10px;
+    flex-direction: column;
     transition: background 260ms ease, color 260ms ease;
     background: linear-gradient(90deg,rgba(40, 60, 94, 1) 0%, rgba(51, 85, 122, 1) 50%, rgba(124, 136, 163, 1) 100%);
   }
 
   /* active state: gradient change effect */
   .card.person2.active {
-    background: linear-gradient(135deg, #ebecef 0%, #7debff 100%);
+    background: linear-gradient(135deg, #a4aec7 0%, #9fbad3 100%);
     color: #111;
   }
 
