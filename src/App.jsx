@@ -7,7 +7,7 @@ import Person5 from './cards/Person5/Person5.jsx';
 import Person6 from './cards/Person6/Person6.jsx';
 import Person7 from './cards/Person7/Person7.jsx';
 import Person8 from './cards/Person8/Person8.jsx';
-import Person9 from './cards/Person9/Person9.jsx';
+import Dan from './cards/Dan/Dan.jsx';
 import Person10 from './cards/Person10/Person10.jsx';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
         <Person6 />
         <Person7 />
         <Person8 />
-        <Person9 />
+        <Dan />
         <Person10 />
       </div>
     </>

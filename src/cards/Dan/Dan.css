@@ -1,0 +1,78 @@
+/* I got these fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+/* These are CSS variables that hold the current color pair. You can see them
+    being used throughout these styles for background, shadow, and text colors.
+    They're changed by the swapBackground function in Dan.jsx */
+:root {
+  --dan-primary: #F94E56;
+  --dan-secondary: #343036;
+}
+
+.dan {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: inset 4px 4px 16px var(--dan-primary), inset -4px -4px 16px var(--dan-primary);
+  user-select: none;
+  background-color: var(--dan-secondary);
+  color: var(--dan-primary);
+  font-family: "Quicksand", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.15em;
+  transition: all 0.3s ease;
+}
+
+/* Flip flops the color pair and shadows on hover, and also scales the card up a bit. */
+.dan:hover {
+  box-shadow: 0 0 10px var(--dan-primary), 0 0 20px var(--dan-primary), 0 0 40px var(--dan-primary);
+  transform: scale(1.1);
+  background-color: var(--dan-primary);
+  color: var(--dan-secondary);
+  cursor: pointer;
+}
+
+/* Starts the scrolling animation for the text when hovering over the card.
+    Notice the hover is on the card itself, not just .name-col, so you can 
+    hover anywhere on the card to start the animation, not just the text. */
+.dan:hover .name-col {
+  animation: scroll 3s linear infinite;
+}
+
+/* This lets text seamlessly scroll. I put the two columns in a flex row to 
+    make them line up next to each other. Making them 100% width and have no
+    automatic flex-shrink ensures they are the same size and don't get squished. */
+.name-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+}
+
+/* Just making the lines of text a little closer */
+.name {
+  margin: -0.1em 0;
+}
+
+/* Makes the first letter of my first and last name a different font. */
+.capital {
+  font-family: "Major Mono Display", monospace;
+}
+
+/* This animation moves both columns of text from left to right, looping when it 
+    reaches the edge of the card. The loop actually snaps the text back to the start, 
+    but since the second column will be exactly where the first was, it looks seamless. */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
