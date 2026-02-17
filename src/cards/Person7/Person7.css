@@ -12,11 +12,29 @@
  *      font-size: 1.5rem;
  *    }
  */
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
 
 .person7 {
   display: flex;
   align-items: center;
-  justify-content: center;
   border: 2px dashed #999;
   border-radius: 8px;
+  background-image: linear-gradient(to right, red,orange,yellow);
 }
+
+.image{
+  object-fit: cover;
+  height: 85%;
+  margin: 5%;
+}
+
+.person7 p, h1, li {
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
