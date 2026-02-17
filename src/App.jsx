@@ -4,7 +4,7 @@ import Person2 from './cards/Person2/Person2.jsx';
 import Person3 from './cards/Person3/Person3.jsx';
 import Person4 from './cards/Person4/Person4.jsx';
 import Person5 from './cards/Person5/Person5.jsx';
-import Person6 from './cards/Person6/Person6.jsx';
+import Person6 from './cards/Brian/Person6.jsx';
 import Person7 from './cards/Person7/Person7.jsx';
 import Person8 from './cards/Person8/Person8.jsx';
 import Dan from './cards/Dan/Dan.jsx';
