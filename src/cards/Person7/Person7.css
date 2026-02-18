@@ -21,19 +21,16 @@
   border: 2px dashed #999;
   border-radius: 8px;
   background-image: linear-gradient(to right, red,orange,yellow);
+  font-family: "Newsreader", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .image{
   object-fit: cover;
   height: 85%;
   margin: 5%;
-}
-
-.person7 p, h1, li {
-  font-family: "Newsreader", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
 }
 
 

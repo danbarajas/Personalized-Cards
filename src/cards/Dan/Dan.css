@@ -39,7 +39,7 @@
     Notice the hover is on the card itself, not just .name-col, so you can 
     hover anywhere on the card to start the animation, not just the text. */
 .dan:hover .name-col {
-  animation: scroll 3s linear infinite;
+  animation: danScroll 3s linear infinite;
 }
 
 /* This lets text seamlessly scroll. I put the two columns in a flex row to 
@@ -68,7 +68,7 @@
 /* This animation moves both columns of text from left to right, looping when it 
     reaches the edge of the card. The loop actually snaps the text back to the start, 
     but since the second column will be exactly where the first was, it looks seamless. */
-@keyframes scroll {
+@keyframes danScroll {
   from {
     transform: translateX(0);
   }
